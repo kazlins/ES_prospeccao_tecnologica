@@ -14,16 +14,16 @@ A Engenharia do Caos tradicional baseia-se em engenheiros humanos a definir e a 
 ## Estrutura da PoC (Prova de Conceito)
 O repositório está dividido em duas partes fundamentais que exemplificam esta tecnologia:
 
-### poc_chaos_agent.py (Script de Automação):
+### `poc_chaos_agent.py` (Script de Automação):
 - Desenvolvido em Python.
-- Simula a lógica de um agente cognitivo de IA a analisar uma infraestrutura de microsserviços.
+- Simula a lógica de um agente cognitivo de IA ao analisar uma infraestrutura de microsserviços.
 - Identifica automaticamente qual o serviço vulnerável com base no número de réplicas e criticidade do tráfego.
 - Gera em tempo de execução um manifesto declarativo em YAML compatível com o LitmusChaos (experimento pod-delete).
 
-### poc_visual_chaos.jsx (Dashboard Interativo):
+### `poc_visual_chaos.jsx` (Dashboard Interativo):
 - Desenvolvido em React.
-- Fornece um painel gráfico iterativo que simula visualmente a infraestrutura a sofrer o ataque planeado pela IA.
-- Excelente para fins de demonstração, exibindo uma consola de logs do raciocínio do "Chaos-Bot" em tempo real.
+- Fornece um painel gráfico iterativo que simula visualmente a infraestrutura ao sofrer o ataque planejado pela IA.
+- Excelente para fins de demonstração, exibindo um console de logs do raciocínio do "Chaos-Bot" em tempo real.
 
 ## Como Executar a PoC
 
@@ -44,15 +44,17 @@ python3 poc_chaos_agent.py
 
 ### O que esperar da saída do terminal?
 
-O script irá simular uma varredura na topologia, imprimindo os logs da análise de IA. Ao final, imprimirá no terminal o manifesto YAML do LitmusChaos gerado automaticamente para o microsserviço vulnerável detetado (auth-service).
+O script irá simular uma varredura na topologia, imprimindo os logs da análise de IA. Ao final, imprimirá no terminal o manifesto YAML do LitmusChaos gerado automaticamente para o microsserviço vulnerável detectado (auth-service).
 
 ### 2. Executar o Simulador Visual (React)
 
 Para abrir o simulador gráfico do terminal de caos no seu navegador local:  
+  
+   
 **Pré-requisitos**:  
 * Node.js (versão LTS)  
   
-  
+
 
 - No terminal do VS Code, dentro da pasta do projeto (poc-caos-visual), inicie o servidor de desenvolvimento local executando:
 
