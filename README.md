@@ -1,10 +1,10 @@
 # Prospecção Tecnológica: Engenharia do Caos Impulsionada por IA
 
-> Universidade Federal de Lavras (UFLA)
-> GCC188 - Engenharia de Software
-> *Curso*: Ciência da Computação
-> Professor: Antonio Maria Pereira de Resende
-> Estudante: Karyna Morais Lins
+Universidade Federal de Lavras (UFLA)  
+GCC188 - Engenharia de Software  
+*Curso*: Ciência da Computação  
+Professor: Antonio Maria Pereira de Resende  
+Estudante: Karyna Morais Lins  
 
 Este repositório contém a Prova de Conceito (PoC) desenvolvida para o trabalho de Prospecção Tecnológica sobre Engenharia do Caos com Inteligência Artificial, comparando a abordagem tradicional estática com a tomada de decisão dinâmica assistida por agentes de IA.
 
@@ -48,10 +48,18 @@ O script irá simular uma varredura na topologia, imprimindo os logs da análise
 
 ### 2. Executar o Simulador Visual (React)
 
-Para abrir o simulador gráfico do terminal de caos no seu navegador local:
-- Copie o código contido em poc_visual_chaos.jsx.
-- Utilize uma ferramenta de desenvolvimento rápido de React (como o Vite, CodeSandbox, ou visualize diretamente na plataforma de desenvolvimento integrada).
-- Clique em "Injetar Caos via IA" para iniciar a simulação visual e ver a IA a derrubar o serviço vulnerável para avaliar o impacto em cascata do sistema degradado.
+Para abrir o simulador gráfico do terminal de caos no seu navegador local:  
+**Pré-requisitos**:  
+* Node.js (versão LTS)
+
+- No terminal do VS Code, dentro da pasta do projeto (poc-caos-visual), inicie o servidor de desenvolvimento local executando:
+
+```
+npm run dev
+```
+
+- Abra o seu navegador de preferência e acesse o endereço fornecido no terminal (geralmente http://localhost:5173).
+- Com a tela aberta, basta clicar em "Injetar Caos via IA" para iniciar a simulação visual em tempo real e acompanhar a inteligência artificial analisando a arquitetura, detectando a vulnerabilidade no "Auth Service" e derrubando o servidor de forma totalmente controlada para avaliar o impacto em cascata.
 
 ## Tabela de Comparação 
 
