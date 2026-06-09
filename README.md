@@ -1,10 +1,10 @@
 # Prospecção Tecnológica: Engenharia do Caos Impulsionada por IA
 
-Universidade Federal de Lavras (UFLA)
-GCC188 - Engenharia de Software
-*Curso*: Ciência da Computação
-Professor: Antonio Maria Pereira de Resende
-Estudante: Karyna Morais Lins
+> Universidade Federal de Lavras (UFLA)
+> GCC188 - Engenharia de Software
+> *Curso*: Ciência da Computação
+> Professor: Antonio Maria Pereira de Resende
+> Estudante: Karyna Morais Lins
 
 Este repositório contém a Prova de Conceito (PoC) desenvolvida para o trabalho de Prospecção Tecnológica sobre Engenharia do Caos com Inteligência Artificial, comparando a abordagem tradicional estática com a tomada de decisão dinâmica assistida por agentes de IA.
 
@@ -27,7 +27,7 @@ O repositório está dividido em duas partes fundamentais que exemplificam esta 
 
 ## Como Executar a PoC
 
-1. Executar o Script do Agente (Python)
+### 1. Executar o Script do Agente (Python)
 Este script pode ser executado em qualquer ambiente com Python 3 instalado, sem a necessidade de dependências externas (utiliza bibliotecas nativas da linguagem).
 
 No Windows (PowerShell):
@@ -42,11 +42,11 @@ No Linux / macOS:
 python3 poc_chaos_agent.py
 ```
 
-### O que esperar da saída do Terminal?
+### O que esperar da saída do terminal?
 
 O script irá simular uma varredura na topologia, imprimindo os logs da análise de IA. Ao final, imprimirá no terminal o manifesto YAML do LitmusChaos gerado automaticamente para o microsserviço vulnerável detetado (auth-service).
 
-2. Executar o Simulador Visual (React)
+### 2. Executar o Simulador Visual (React)
 
 Para abrir o simulador gráfico do terminal de caos no seu navegador local:
 - Copie o código contido em poc_visual_chaos.jsx.
