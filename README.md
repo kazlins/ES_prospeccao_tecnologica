@@ -53,6 +53,8 @@ Para abrir o simulador gráfico do terminal de caos no seu navegador local:
 - Utilize uma ferramenta de desenvolvimento rápido de React (como o Vite, CodeSandbox, ou visualize diretamente na plataforma de desenvolvimento integrada).
 - Clique em "Injetar Caos via IA" para iniciar a simulação visual e ver a IA a derrubar o serviço vulnerável para avaliar o impacto em cascata do sistema degradado.
 
+## Tabela de Comparação 
+
 | Critério | LitmusChaos (Tradicional) | Engenharia de Caos com IA |
 | :--- | :--- | :--- |
 | **Seleção de Falhas** | Manual (configurada por um engenheiro) | Autônoma (a IA detecta o elo mais fraco) |
