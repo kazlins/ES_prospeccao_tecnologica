@@ -19,12 +19,12 @@ def ai_chaos_analyzer(architecture):
     Na vida real, passaríamos o JSON acima para o modelo (GPT-4) e pediríamos:
     'Gere um manifesto LitmusChaos para testar a resiliência dessa arquitetura.'
     """
-    print("\n🤖 [Agente IA] Analisando arquitetura do sistema...")
+    print("\n[Agente IA] Analisando arquitetura do sistema...")
     time.sleep(1.5)
     
     if architecture["replicas"] < 2:
-        print("⚠️ [Alerta] Detectado Ponto Único de Falha! (Apenas 1 réplica).")
-        print("💡 [Agente IA] Decisão: Gerar experimento 'Pod Delete' para testar disponibilidade.")
+        print("[Alerta] Detectado Ponto Único de Falha! (Apenas 1 réplica).")
+        print("[Agente IA] Decisão: Gerar experimento 'Pod Delete' para testar disponibilidade.")
         
         # Simula o LLM retornando um manifesto YAML do LitmusChaos
         yaml_output = f"""
@@ -56,19 +56,19 @@ spec:
         return "Nenhuma vulnerabilidade óbvia encontrada para injeção básica."
 
 def execute_experiment():
-    print("🚀 Iniciando Prova de Conceito de AI-Driven Chaos...")
+    print("Iniciando Prova de Conceito de AI-Driven Chaos...")
     
     # 1. Obter o estado atual do sistema
     arch = get_system_architecture()
-    print(f"📦 Estado atual: {json.dumps(arch, indent=2)}")
+    print(f"Estado atual: {json.dumps(arch, indent=2)}")
     
     # 2. Agente IA analisa e propõe o experimento
     chaos_manifest = ai_chaos_analyzer(arch)
     
     # 3. Resultado
-    print("\n📝 [Manifesto de Caos Gerado pela IA]:")
+    print("\n[Manifesto de Caos Gerado pela IA]:")
     print(chaos_manifest)
-    print("\n✅ PoC Finalizada. O próximo passo seria aplicar via 'kubectl apply -f chaos.yaml'")
+    print("\nPoC Finalizada. O próximo passo seria aplicar via 'kubectl apply -f chaos.yaml'")
 
 if __name__ == "__main__":
     execute_experiment()
