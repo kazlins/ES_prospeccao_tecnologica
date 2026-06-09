@@ -50,7 +50,9 @@ O script irá simular uma varredura na topologia, imprimindo os logs da análise
 
 Para abrir o simulador gráfico do terminal de caos no seu navegador local:  
 **Pré-requisitos**:  
-* Node.js (versão LTS)
+* Node.js (versão LTS)  
+  
+  
 
 - No terminal do VS Code, dentro da pasta do projeto (poc-caos-visual), inicie o servidor de desenvolvimento local executando:
 
