@@ -23,7 +23,7 @@ Para facilitar a demonstração e execução, a PoC foi unificada em uma aplica�
 ### Simulador Visual:
 - Desenvolvido em React e Tailwind CSS.
 - Fornece um painel gráfico iterativo que simula visualmente a infraestrutura sofrendo o ataque planejado pela IA.
-- Exibe um terminal de logs simulando o raciocínio (como se fosse o "pensamento") do bot do caos durante a análise.
+- Exibe um terminal de logs simulando o raciocínio (como se fosse o "pensamento") do Bot do Caos durante a análise.
 
 ### Como Executar a PoC
 
